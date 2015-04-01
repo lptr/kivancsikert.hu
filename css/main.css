@@ -26,7 +26,7 @@ body:lang(en) *:lang(hu) {
 	display: none;
 }
 
-.welcome {
+.jumbotron.welcome {
 	height:100%;
 	width:100%;
 	background: none;
@@ -35,7 +35,7 @@ body:lang(en) *:lang(hu) {
 	font: 0/0 a;				 /* remove the gap between inline(-block) elements */
 }
 
-.welcome:before {		/* create a full-height inline block pseudo=element */
+.jumbotron.welcome:before {		/* create a full-height inline block pseudo=element */
 	content: ' ';
 	display: inline-block;
 	vertical-align: middle;	/* vertical alignment of the inline element */
@@ -49,4 +49,6 @@ body:lang(en) *:lang(hu) {
 	display: inline-block;
 	vertical-align: middle;	/* vertical alignment of the inline element */
 	font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;				/* <-- reset the font property */
+
+	padding-bottom: 1em;
 }
