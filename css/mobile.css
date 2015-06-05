@@ -12,10 +12,7 @@ img.logo {
     font-size: 14px;
     padding: 8px 12px;
     width: 100%;
-}
-
-img.book {
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .welcome > .container .row {
