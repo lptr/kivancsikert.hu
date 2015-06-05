@@ -18,32 +18,48 @@ $(function () {
 		userLang = "en";
 	}
 	$("body").attr("lang", userLang);
+	console.log("Language", userLang);
 });
 </script>
 </head>
 <body>
 <div class="jumbotron welcome">
 	<div class="container text-center">
-		<div class="row">
-		    <div class="col-sm-8 col-sm-offset-2">
-<h1 lang="en">Curious Garden</h1>
-<h1 lang="hu">Kíváncsi Kert</h1>
-<p lang="en">
-Welcome!
-</p>
-<p lang="hu">
-Üdvözöljük!
-</p>
-<p>
-	<a lang="en" href="https://shop.kivancsikert.hu" class="btn btn-lg btn-success">Visit our webshop</a>
-	<a lang="hu" href="https://bolt.kivancsikert.hu" class="btn btn-lg btn-success">Látogassa meg webáruházunkat</a>
-	<br/>
-	<small>
-		<a lang="en" href="mailto:sales@kivancsikert.hu">Register here</a>
-		<a lang="hu" href="mailto:sales@kivancsikert.hu">Regisztráció</a>
-	</small>
-</p>
+		<div class="row main">
+		    <div class="col-sm-8 col-sm-offset-1 pane">
+				<img class="logo" lang="en" src="img/logo-en.png"/>
+				<img class="logo" lang="hu" src="img/logo-hu.png"/>
+				<h1 lang="en">Welcome to our garden</h1>
+				<h1 lang="hu">Üdvözlünk a kertünkben!</h1>
+				<p>
+					<a href="https://docs.google.com/forms/d/1uskEgnxDxGAHL39tl6zBpNR2Fwp_QXdDD3D4mgASlM4/viewform" class="btn btn-lg btn-contact">
+						<span class="glyphicon glyphicon-pencil"></span>
+						<span lang="en">Contact us</span>
+						<span lang="hu">Kapcsolatfelvétel</span>
+					</a>
+					<a href="https://www.facebook.com/kivancsikert" class="btn btn-lg btn-facebook">
+						<img src="img/fb-logo-small-white.png" />
+						<span lang="en">Facebook page</span>
+						<span lang="hu">Facebook oldal</span>
+					</a>
+				</p>
 		    </div>
+		</div>
+		<div class="row text-center">
+			<div style="background-color: rgba(224, 224, 224, 0.75); height: 2px; width: 40%; display: inline-block;">
+			</div>
+		</div>
+		<div class="row book">
+			<div class="col-sm-8 col-sm-offset-3 text-right pane">
+				<img class="book" src="img/book.jpg"/>
+				<h1 lang="en">New book just released</h1>
+				<h1 lang="hu">Megjelent az új könyvünk</h1>
+				<a href="https://www.facebook.com/kertkaland" class="btn btn-lg btn-facebook">
+					<img src="img/fb-logo-small-white.png" />
+					<span lang="en">Facebook page</span>
+					<span lang="hu">Facebook oldal</span>
+				</a>
+			</div>
 		</div>
 	</div>
 </div>
