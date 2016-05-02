@@ -5,7 +5,7 @@
 }
 
 html {
-	background: url(../img/background.jpg) no-repeat center center fixed;  
+	background: url(../img/background.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -92,6 +92,12 @@ img.book {
 	width: 30%;
 	height: 30%;
 	margin-left: 1em;
+}
+
+img.baby {
+	float: none;
+	width: 75%;
+	height: 75%;
 }
 
 .btn-contact {
